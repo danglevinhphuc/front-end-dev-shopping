@@ -1,0 +1,28 @@
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+.image-upload-fb {
+  background-position: 50% !important;
+  border: 1px solid #fff;
+  padding: 25px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.position-upload-images {
+  position: relative;
+  width: 101px;
+}
+.icon-image-upload {
+  position: absolute !important;
+  color: #fff;
+  left: 75px;
+  top: -95px;
+}

@@ -1,0 +1,6 @@
+.chat-content {
+    border: 1px solid #e9ecef;
+    height: 200px;
+    padding: 10px;
+    overflow-y: scroll;
+}
