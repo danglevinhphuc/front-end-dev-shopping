@@ -10,7 +10,9 @@ import 'react-notifications/lib/notifications.css';
 import 'react-confirm-alert/src/react-confirm-alert.css' // Import css
 import './style.css';
 import { socket_init } from './configuration/socket';
+import { axios_init } from './configuration/axios';
 socket_init();
+axios_init();
 const store = createStore(
     configuration,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
