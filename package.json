@@ -34,7 +34,9 @@
     "simple-react-validator": "^1.2.0",
     "socket.io": "*",
     "socket.io-client": "*",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
     "start": "npm run dev",
