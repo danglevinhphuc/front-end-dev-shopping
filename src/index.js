@@ -11,8 +11,10 @@ import 'react-confirm-alert/src/react-confirm-alert.css' // Import css
 import './style.css';
 import { socket_init } from './configuration/socket';
 import { axios_init } from './configuration/axios';
+import { fetch_init } from './configuration/fetch';
 socket_init();
 axios_init();
+fetch_init();
 const store = createStore(
     configuration,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
